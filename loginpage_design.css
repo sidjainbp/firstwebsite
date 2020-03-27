@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0px 0px;
+  margin: 0 auto;
+}
+
+.container b{
+	color: #47a428;
+	font-family: Arial;
+}
+
+.header-logo{
+	float: left;
+	font-size: 40px;
+	font-family: "Arial Black";
+	margin: 10px 45px;
+	color: #fff;
+}
+
+.header-span{
+	color: #00ffff;
+	float : right;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: #47a428;
+  position: fixed;
+  top : 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right{
+	font-family: "Bahnschrift Light";
+	float : right;
+	font-size: 28px;
+	margin : 25px 45px;
+	color : #fff;
+}
+
+/*.content{
+	margin : 100px 300px 100px 300px;
+	padding: 10px 20px 10px 20px;
+}
+
+.usernamegrp{
+	margin: 10px;
+	float: left;
+}
+
+.passwordgrp{
+	margin : 10px;
+	float: left;
+}
+
+.username input{
+	float: right;
+}
+
+.password input{
+	float: right;
+}*/
+
+form {
+  border: 3px solid #f1f1f1;
+  width: 280px;
+  margin-top: 250px;
+  margin-left: 530px;
+  padding: 40px 70px 40px 70px;
+}
+
+.container input{
+	margin-left: 20px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 4px 10px;
+  margin: 8px 60px;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+footer{
+	position: fixed;
+	color: black;
+	border-top: 1px solid #bfbfbf;
+	height : 65px;
+	bottom: 0px;
+	background-color: #f2f2f2;
+	width : 100%;
+	margin-top: 100px;
+	float: left;
+}
+
+.footer-logo{
+	float : left;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 30px 20px 30px;
+}
+
+.footer-list{
+	float: right;
+	margin-top: -5px;
+	margin-right: 100px;
+}
+
+.footer-list li{
+	list-style: none;
+	font-size : 15px;
+	font-family: Arial;
+	float: left;
+	padding: 15px 20px;
+	margin-bottom: 10px;
+}

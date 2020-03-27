@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+	<head>
+		<title>Code School</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="loginpage_design.css">
+	</head>
+
+	<body>
+		<header>
+		    <div class="container">
+		        <div class="header-left">
+		    	    <div class = "header-logo">CODE SCHOOL<div class ="header-span">;</div></div>
+		        </div>
+			    <div class = "header-right">THE DESTINATION TO COMPLETE LEARNING</div>
+		    </div>
+	    </header>
+
+	    <!--<div class="content">
+	    	<div class="usernamegrp">
+	    		<h3>Username</h3>
+	    		<input type="username">
+	    	</div>
+	    	<div class="passwordgrp">
+	    		<h3>Password</h3>
+	    		<input type="password">
+	    	</div>
+	    	<input class="details-submit" type="submit" value="Login">
+	    </div>-->
+
+		<form action="action_page.php" method="post">		
+		  <div class="container">
+		    <label for="uname"><b>Username</b></label>
+		    <input type="text" placeholder="Enter Username" name="uname" required>
+			<p></p>
+		    <label for="psw"><b>Password</b></label>
+		    <input type="password" placeholder="Enter Password" name="psw" required>
+			<p></p>
+		    <button type="submit">Login</button>
+		    <p></p>
+		    <label>
+		      <input type="checkbox" checked="checked" name="remember"> Remember me
+		    </label>
+		  </div>
+		</form>	    
+
+	    <footer>
+			<div class="footer-logo">CODE SCHOOL;</div>
+			<div class = "footer-list">
+				<ul>
+					<li>About</li>
+					<li>Lessons</li>
+					<li>Contact us</li>		
+				</ul>
+			</div>
+		</footer>
+	</body>
+
+</html>
